@@ -1,0 +1,35 @@
+body {margin:0 ;
+      background-image: url(b.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;}
+h1{font-style: italic;
+      font-size: xx-large;
+      font-weight: bold;}        
+h7{font-size: larger;
+font-weight: bolder;
+}
+h4{font-size: medium;}
+.icon-bar {
+      width: 800;
+      background-color: #4c485076;
+      overflow: auto;
+    }
+    
+    .icon-bar a {
+      float: left;
+      width: 20%;
+      text-align: center;
+      padding: 25px 0;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 36px;
+    }
+    
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+    
+    .active {
+      background-color: #08020e;
+    }
